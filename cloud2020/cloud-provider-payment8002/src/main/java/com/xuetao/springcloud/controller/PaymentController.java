@@ -62,4 +62,9 @@ public class PaymentController {
                 "\t" + instance.getPort() + "\t" +instance.getUri()));
         return this.discoveryClient;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLb() {
+        return serverPort;
+    }
 }
