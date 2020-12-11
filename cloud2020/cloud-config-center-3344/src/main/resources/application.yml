@@ -12,9 +12,6 @@ spring:
         ####搜索目录
           search-paths:
             - spring-cloud-case
-          force-pull: true
-          username: litao26
-          password: 520liujiahui1314
       ####读取分支
       label: master
 #rabbitmq相关配置
