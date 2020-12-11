@@ -43,6 +43,7 @@ public class PaymentHystrixController {
     public String paymentInfo_TimeOutFallbackMethod(Integer id) {
         return "支付繁忙";
     }
+    
     // 下面是全局fallback方法
     public String payment_Global_FallbackMethod()
     {
